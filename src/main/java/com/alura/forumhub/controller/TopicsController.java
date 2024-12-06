@@ -37,8 +37,10 @@ public class TopicsController {
         Page<Topic> topics;
         if (courseName == null) {
             topics = topicRepository.findAll(pagination);
+            System.out.println(topics.getTotalElements());
         } else {
             topics = topicRepository.findByCourseName(courseName, pagination);
+            System.out.println(topics.getTotalElements());
         }
         return TopicDTO.convert(topics);
     }
