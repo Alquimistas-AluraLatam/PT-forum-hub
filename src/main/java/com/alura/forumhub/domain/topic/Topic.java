@@ -28,7 +28,7 @@ public class Topic {
     @Enumerated(EnumType.STRING)
     private TopicStatus status = TopicStatus.UNANSWERED;
     @ManyToOne
-    private User autor;
+    private User user;
     @ManyToOne
     private Course course;
     @OneToMany(mappedBy = "topic")

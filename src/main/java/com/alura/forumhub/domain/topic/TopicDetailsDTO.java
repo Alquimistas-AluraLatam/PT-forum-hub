@@ -16,7 +16,7 @@ public record TopicDetailsDTO(Long id,
 
 
     public TopicDetailsDTO(Topic topic) {
-        this(topic.getId(), topic.getTitle(), topic.getMessage(), topic.getCreationDate(), topic.getAutor().getName(), topic.getStatus(), topic.getAnswers().stream().map(AnswerDTO::new).collect(Collectors.toList()));
+        this(topic.getId(), topic.getTitle(), topic.getMessage(), topic.getCreationDate(), topic.getUser().getName(), topic.getStatus(), topic.getAnswers().stream().map(AnswerDTO::new).collect(Collectors.toList()));
 
     }
 
