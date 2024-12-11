@@ -3,6 +3,7 @@ package com.alura.forumhub.controller;
 
 import com.alura.forumhub.domain.course.CourseRepository;
 import com.alura.forumhub.domain.topic.*;
+import io.swagger.v3.oas.annotations.security.SecurityRequirement;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cache.annotation.CacheEvict;
@@ -20,6 +21,7 @@ import java.net.URI;
 import java.util.Optional;
 
 @RestController
+@SecurityRequirement(name = "bearer-key")
 @RequestMapping("/topics")
 public class TopicsController {
 
