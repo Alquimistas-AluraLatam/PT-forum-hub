@@ -22,6 +22,10 @@ Además, gestionamos la seguridad de la aplicación implementando autenticación
 
 Finalmente, documentamos la API de Fórum Hub utilizando Swagger y la dependencia SpringDoc.
 
+### Branches
+
+Organizamos el proyecto en tres *branches* (ramas) en este repositorio: master (principal), security (seguridad) y springdoc (documentación). Y reforzarmos que la parte de documentación es un requisito OPCIONAL como señalizado en el cuadro trello.
+
 ## Tecnologías utilizadas
 
 - **Java** - versión 17: https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html
