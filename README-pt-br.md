@@ -22,6 +22,10 @@ Além disso, tratamos da segurança da nossa aplicação implementando uma auten
 
 E por fim, tratamos da documentação da nossa API do Fórum Hub, utilizando do Swagger e a dependência SpringDoc. 
 
+### Branches
+
+Organizamos o projeto em três *branches* (ramos) neste repositório: master (principal), security (segurança) e springdoc (documentação). E reforçarmos que a parte de documentação é um requisito OPCIONAL conforme sinalizado no quadro trello.
+
 ## Tecnologias utilizadas
 
 - Java - versão 17: https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html
